@@ -17,6 +17,8 @@ s save current aligned face to data/debug_aligned/<timestamp>.jpg
 
 from __future__ import annotations
 
+import utils.transport
+import utils.session
 import os
 import time
 from pathlib import Path
